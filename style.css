@@ -1,0 +1,69 @@
+.game{
+    width: 500px;
+    height: 600px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin: -250px 0 0 -250px;
+}
+.score{
+    width: 500px;
+    height: 80px;
+    background-color: red;
+    font-size: 25pt;
+}
+.field {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.cell{
+    width: 120px;
+    height: 120px;
+    background-color: cadetblue;
+    margin: 2px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    font-size: 45pt;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+.header{
+    font-size: 25pt;
+}
+
+
+.cell[numb = "2"]{
+    background-color: #eee4da;
+}
+.cell[numb = "4"]{
+    background-color: #ede0c8;
+}
+.cell[numb = "8"]{
+    background-color: #f2b179;
+}
+.cell[numb = "16"]{
+    background-color: #f59563;
+}
+.cell[numb = "32"]{
+    background-color: #f67c5f;
+}
+.cell[numb = "64"]{
+    background-color: #f65e3b;
+}
+.cell[numb = "128"]{
+    background-color: #edcf72;
+}
+.cell[numb = "256"]{
+    background-color: #edcc61;
+}
+
+.cell.anim{
+    position: absolute;
+    opacity: 0.5;
+}
